@@ -11,7 +11,6 @@ using namespace std;
 
 int main(void) //главна функция, не пиптай тук
 {
-
 //creates folder for store calculcations data
 // -p is for hide the errors
 system("mkdir -p JetCalc_App_Data");
