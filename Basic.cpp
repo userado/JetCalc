@@ -113,7 +113,6 @@ void Basic::Kalkulaciq() {
 		file << "ОБЩО: " << SUM;
 		file.close();//close file
 		cout << "Записът е извършен!" << endl;
-
 	}//if
 	else
 	{
