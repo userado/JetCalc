@@ -1,0 +1,1 @@
+g++ Main.cpp Basic.cpp Multiplaying.cpp Science.cpp Theme.cpp Welcome.cpp -o JetCalc
