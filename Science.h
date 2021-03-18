@@ -20,6 +20,6 @@ public:
 	void Exp2();
 private:
 	double I, R, U, valLog, resLog, valExp, resExp, valExp2, resExp2;
-	char defpar[51] = "Въведи параметър за ";
+	char defpar[51] = "Enter parameter for ";
 };
 #endif
