@@ -9,7 +9,7 @@
 #include <cstdlib>
 using namespace std;
 
-int main(void) //главна функция, не пиптай тук
+int main(void) //the main program function
 {
 //creates folder for store calculcations data
 // -p is for hide the errors
@@ -24,44 +24,43 @@ system("mkdir -p JetCalc_App_Data/Exp_Data");//not same func like exp2
 system("mkdir -p JetCalc_App_Data/Logarithm_Data");
 system("mkdir -p JetCalc_App_Data/Current_Data");
 
-	//SetConsoleOutputCP(CP_UTF8); за кирилицата, не пипай
+	//SetConsoleOutputCP(CP_UTF8); for cyrilic keyboard input
 	Theme thmout;
 	Science OutComplex;
 	Basic option;
 	Multiplaying MLTP;
-
-	//след тази точка стартира видимата част в програмата
-	thmout.tabdesign(); //не премествай, НЛО
+	
+	thmout.tabdesign(); //table design function
 	Welcome msg;
-	msg.VersionInfo();
+	msg.VersionInfo();//prints welcome msg
 
-	cout << "Днес е:" << endl;
+	cout << "Today is:" << endl;
 	system("date");
-	cout << "Весел и усмихнат ден!" << endl;
+	cout << "Have a nice day!" << endl;
 
 	int n;
 	do
 	{
 		thmout.tabdesign();
-		thmout.makespace(); cout << " МЕНЮ: \n\n";
+		thmout.makespace(); cout << " MENU: \n\n";
 		thmout.tabdesign();
-	  thmout.makespace(); cout << " 99 - Ръководство.\n";
-		thmout.makespace(); cout << " 0 - Не прави нищо (изход).\n";
-		thmout.makespace(); cout << " 1 - Обикновена финансова калкулация.\n";
-		thmout.makespace(); cout << " 2 - Пресмятане на процент.\n";
-		thmout.makespace(); cout << " 3 - Умножение.\n";
-		thmout.makespace(); cout << " 4 - Деление.\n";
-		thmout.makespace(); cout << " 5 - Събиране.\n";
-		thmout.makespace(); cout << " 6 - Изваждане\n";
-		thmout.makespace(); cout << " 7 - Пресмятане стойност на електричество.\n";
-		thmout.makespace(); cout << " 8 - Пресметни съпротивление.\n";
-		thmout.makespace(); cout << " 9 - Пресметни волтаж.\n";
-		thmout.makespace(); cout << " 10 - Пресметни логаритъм.\n";
-		thmout.makespace(); cout << " 11 - Пресметни експонента.\n";
-		thmout.makespace(); cout << " 12 - Пресметни експонента Exp2. \n";
-		thmout.makespace(); cout << " 13 - Покажи таблицата за умножение от 1-10 \n\n";
+	  thmout.makespace(); cout << " 99 - Manual.\n";
+		thmout.makespace(); cout << " 0 - Exit.\n";
+		thmout.makespace(); cout << " 1 - Basic finance calculation.\n";
+		thmout.makespace(); cout << " 2 - Percent calculation.\n";
+		thmout.makespace(); cout << " 3 - Multiplying.\n";
+		thmout.makespace(); cout << " 4 - Dividing.\n";
+		thmout.makespace(); cout << " 5 - Addition.\n";
+		thmout.makespace(); cout << " 6 - Substraction \n";
+		thmout.makespace(); cout << " 7 - Current calculation.\n";
+		thmout.makespace(); cout << " 8 - Resistance calculation.\n";
+		thmout.makespace(); cout << " 9 - Voltage calculation.\n";
+		thmout.makespace(); cout << " 10 - Logarithm calculation.\n";
+		thmout.makespace(); cout << " 11 - Exponential calculation.\n";
+		thmout.makespace(); cout << " 12 - Exp2. calculation \n";
+		thmout.makespace(); cout << " 13 - Show multiplication table 1-10 \n\n";
 		thmout.tabdesign();
-		cout << "Моля, избери опция: "; cin >> n;
+		cout << "Please, select option: "; cin >> n;
 		cout << "\n";
 
 		switch (n)
