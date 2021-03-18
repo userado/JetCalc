@@ -3,7 +3,7 @@
 using namespace std;
 Theme thm;
 
-//използва се за * между параграфите
+//used * between lines
 void Theme::tabdesign()
 {
 	int i;
@@ -14,7 +14,7 @@ void Theme::tabdesign()
 	cout << endl;
 }
 
-//използван в дизайна на главното меню
+//uded for main menu design
 void Theme::makespace()
 {
 	int space;
