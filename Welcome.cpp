@@ -14,7 +14,7 @@ void Welcome::Credits() {
 	cout << " Phone: +359897228344" << endl;
 	cout << " Keybse: " << keybase << endl;
 	cout << " E-mail: " << email << endl;
-	cout << "Website: " << website << endl;
+	cout << " Website: " << website << endl;
 	cout << endl;
 }
 void Welcome::Manual() {
