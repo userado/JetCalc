@@ -18,7 +18,7 @@ private:
 	string owner = "Adnan Rasim. Computer science student at University of Ruse 'Angel Kanchev'. ";
 	string keybase = "neongreen";
 	string email = "userado@protonmail.com";
-	string website = "adnanrasim.comКънчев";
+	string website = "adnanrasim.com";
 	
 };
-#endifКънчев
+#endif
